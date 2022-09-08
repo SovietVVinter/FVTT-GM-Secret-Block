@@ -26,7 +26,6 @@ Hooks.on("ready", async () => {
         // If the user is a GM, add the "game-master" class to the tinyMCE iframe body.
         if (game.user.isGM) {
               $(editor.view.dom).addClass("tinymce", "game-master");
- //           editor.view.dom.addClass("tinymce", "game-master");
         }
 
         return editor;
